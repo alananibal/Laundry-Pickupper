@@ -1,8 +1,24 @@
 # Laundry-Pickupper
-This project goas is to create an app to request free-lance Laundry services to be picked up and delivered at home
+This project goaL is to create the start of an app to request free-lance Laundry services to be picked up and delivered at home
+
+## User story
+```
+I want to create an order post for "laundry pick up and delivery" so I can find someone to hire for this service.
+```
+
+## Acceptance Criteria
+
+```
+GIVEN Interested create an order post for "laundry pick up and delivery"
+WHEN I click the log in button
+THEN a page with the login form is presented for the user to input it's info( Client-side storage for persistent data.
+
+GIVEN that I'm now logged in an page with a order request form is presented.
+
 
 
 ## Functionality
+
 
 
 
