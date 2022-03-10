@@ -1,5 +1,5 @@
 # Laundry-Pickupper
-This project goal is to create the start of an app to request free-lance Laundry services to be picked up and delivered at home
+Our project goal is to create the start of an app to request free-lance Laundry services to be picked up and delivered at home.
 
 ## User story
 ```
@@ -11,15 +11,15 @@ I want to create an order post for "laundry pick up and delivery" so I can find 
 ```
 GIVEN I'm interested in creating an order post for "laundry pick up and delivery"
 WHEN I click the SignIn button
-THEN a page with the SignIn form is presented to the user to input their info (Client-Side storage for persistent data.)
+THEN a page with the SignIn form is presented to the user to input their info (Client-Side storage for persistent data)
 
-GIVEN that I'm now logged in a page with an "order request form" is presented.
-WHEN I fill the form and click the submit button 
+GIVEN that I'm now logged in, a page with an "order request form" is presented
+WHEN I fill out the form and click the submit button 
 THEN a page with my order post for "laundry pick up and delivery" is presented
 
-Given that I want to confirm my inputs
-when I click reedit
-I'm taken to back to my form page
+GIVEN that I want to confirm my inputs
+WHEN I click reedit
+I'm taken back to my form page
 WHEN I click on Submit
 Then my order post for "laundry pick up and delivery" is posted on the search page.
 
