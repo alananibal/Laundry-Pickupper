@@ -24,6 +24,10 @@ WHEN I click on Submit
 Then my order post for "laundry pick up and delivery" is posted on the search page.
 
 
+## APIs featured
+CSS - Foundation
+JS - jQuery
+
 
 ## Functionality
 
