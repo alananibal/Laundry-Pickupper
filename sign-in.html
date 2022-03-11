@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-In-Page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css" crossorigin="anonymous">
+        <!-- Insert our css style page(s) here -->
+    </head>
+    <body>
+        <!-- Website title/ also another link to homepage (index.html) -->
+        <header class="header">
+            <h1 class="name">
+            <a href="./index.html" > Laundry PickUpper </a>
+            </h1>
+            <!-- Partial nav with another link to homepage that is more obvious than the previous link  -->
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li  class="nav-list-item">
+                     <a href="./index.html">Home</a>
+                  </li>      
+                </ul>
+            </nav>
+
+            
+        </header>
+        <!-- Sign-in-form element begins here -->
+        <form class="sign-in-form">
+            <label class="label" for="email">Enter Username</label>
+            <input type="text" placeholder="youremailaddress@youremail.com" name="email" id="email" class="form-input"/>
+            <label class="label" for="password">Enter Password</label>
+            <input type="text" placeholder="Your Password" name="password" id="password" class="form-input" />
+            <button type="submit" class="btn">Log In</button>
+            <button type="submit" class="btn">Cancel</button>
+            <button type="submit" class="btn">Create New Account</button>
+        </form>
+    </body>
+</html>
