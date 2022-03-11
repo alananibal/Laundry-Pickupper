@@ -16,12 +16,14 @@
         
     </div>
 
-    <h2>Create your post!</h2>
+    <h2>Create your order post!</h2>
+
+    
+
+    <!-- Modal -->
     <form>
         <!--We need to include the maximun of 4 because we will need to append all those questions bellow  -->
-        <label for="name">Number of Laundry Bags</label>
-          <input type="number" id="nameOfBags" name="numberOfBags" class="#" />
-        <!-- Radios template  -->
+        <button>Add a Laundry bag</button>
         <!-- Type input -->
         <div>
             <p>Laundry type  
@@ -70,9 +72,25 @@
             </p>
         </div>
         <!--Notes/Special requests  -->
-        <label for="name">Your Name</label>
-        <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
+        <label for="notes">Notes/Special requests</label>
+        <input type="text" placeholder="Obs" id="notes" name="notes" class="form-input" />
         <!-- 18 Years Old -->
+        
+    </form>
+    <!-- End of modal -->
+
+    <!-- Order submition -->
+    <form>
+      <div>
+        <h3>Your bags</h3>
+        <div id="laundryBagsContainer">
+          <ul>
+            <!-- <li>bagIdNo. + laundryType.Value + " " + temperature.value + " " + bleachConfirm.value "blech" + notes </li> -->
+            <li>1.Whites - hot - no bleach - do not clean it in the dogs machine</li>
+          </ul>
+        </div>
+        <h4>Total = <span id="bagsNumber"></span></h4>
+      
         <p>
             <span class="checkbox-wrapper">
               <input type="checkbox" name="checkbox" id="checkbox" />
@@ -86,6 +104,10 @@
         <button type="submit">
             Get it clean!
         </button>
+      </div>
     </form>
+
+
+
 </body>
 </html>
