@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Same Header as other pages??? -->
+    <Header><h1>Laundry PickUpper</h1></Header>
+    
+    <div>
+        <!-- append sign in info -->
+        <h1>Welcome <span id="userName">userIdVariable</span>!</h1>
+        
+    </div>
+
+    <h2>Create your post!</h2>
+    <form>
+        <!--We need to include the maximun of 4 because we will need to append all those questions bellow  -->
+        <label for="name">Number of Laundry Bags</label>
+          <input type="number" id="nameOfBags" name="numberOfBags" class="#" />
+        <!-- Radios template  -->
+        <!-- Type input -->
+        <div>
+            <p>Laundry type  
+                <span class="radio-wrapper">
+                  <input type="radio" name="colorsConfirm" id="colorsConfirm" />
+                  <label for="colorsConfirm">colors</label>
+                </span>
+                <span class="radio-wrapper">
+                  <input type="radio" name="whitesConfirm" id="whitesConfirm" />
+                  <label for="whitesConfirm">whites</label>
+                </span>
+                <span class="radio-wrapper">
+                    <input type="radio" name="coldConfirm" id="coldConfirm" />
+                    <label for="deicatesConfirm">delicates</label>
+                  </span>
+            </p>
+        </div>
+        <!-- Temperature input -->
+        <div>
+            <p>Temperature  
+                <span class="radio-wrapper">
+                  <input type="radio" name="hotConfirm" id="hotConfirm" />
+                  <label for="hotConfirm">hot</label>
+                </span>
+                <span class="radio-wrapper">
+                  <input type="radio" name="mediumConfirm" id="mediumConfirm" />
+                  <label for="mediumConfirm">medium</label>
+                </span>
+                <span class="radio-wrapper">
+                    <input type="radio" name="coldConfirm" id="coldConfirm" />
+                    <label for="coldConfirm">cold</label>
+                  </span>
+            </p>
+        </div>
+        <!-- Bleach confirm -->
+        <div>
+            <p>Bleach  
+                <span class="radio-wrapper">
+                  <input type="radio" name="yesConfirm" id="yesConfirm" />
+                  <label for="yesConfirm">yes</label>
+                </span>
+                <span class="radio-wrapper">
+                  <input type="radio" name="noConfirm" id="noConfirm" />
+                  <label for="noConfirm">no</label>
+                </span>
+            </p>
+        </div>
+        <!--Notes/Special requests  -->
+        <label for="name">Your Name</label>
+        <input type="text" placeholder="Your Name" id="name" name="name" class="form-input" />
+        <!-- 18 Years Old -->
+        <p>
+            <span class="checkbox-wrapper">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+            </span>
+        </p>
+        <!-- Prefered time for pickup -->
+        <label for="pickupSchedule">Please selected your prefered time for pick up (please be avaiable within an hour of selected time):</label>
+        <input type="datetime-local" id="pickupSchedule" name="pickupSchedule">
+        <!--submit button  -->
+        <button type="submit">
+            Get it clean!
+        </button>
+    </form>
+</body>
+</html>
