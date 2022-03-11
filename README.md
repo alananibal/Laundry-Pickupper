@@ -27,6 +27,7 @@ Then my order post for "laundry pick up and delivery" is posted on the search pa
 ## APIs featured
 CSS - Foundation
 JS - jQuery
+Maps - GoogleMaps
 
 
 ## Functionality
